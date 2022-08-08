@@ -25,9 +25,8 @@ header {
     z-index: 999;
     display: flex;
     justify-content: space-between;
-    
     align-items: center;
-    padding: 10px 150px;
+    padding: 1px 150px;
     box-shadow: 0 5px 25px rgba(255, 255, 255, 0.685);
 }
 
