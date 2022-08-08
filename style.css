@@ -41,7 +41,6 @@ header {
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
-
 }
 
 .navigation a:hover{
@@ -50,7 +49,6 @@ header {
 
 section{
     padding: 100px 150px;
-
 }
 
 .main{
@@ -58,10 +56,11 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg) no-repeat;
+    background: url(dark-mode-wallpapers-46516-365789-1803642.png) no-repeat ;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+
 }
 
 .main h2{
