@@ -8,21 +8,27 @@
     scroll-behavior: smooth;
 }
 
+
 *::selection{
 background-color: rgb(22, 22, 22);
 color: white;
 }
 
 header {
+    margin-top: 10px;
+    margin-left: 3em;
     background-color: #f0f0f0;
-    width: 100%;
+    width: 95%;
+    position: fixed;
+    border-radius: 50px;
     position: fixed;
     z-index: 999;
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
     padding: 10px 150px;
-    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.377);
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.685);
 }
 
 .logo{
@@ -30,7 +36,7 @@ header {
     color: #3a6cf4;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 2.8em;
     transition: 0.4s ease;
 }
 
@@ -263,6 +269,7 @@ padding: 0 14px 0 0;
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
+        margin-left: 10px;
     }
 
     .navigation a{
