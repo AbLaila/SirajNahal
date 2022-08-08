@@ -8,6 +8,11 @@
     scroll-behavior: smooth;
 }
 
+*::selection{
+background-color: rgb(22, 22, 22);
+color: white;
+}
+
 header {
     background-color: #f0f0f0;
     width: 100%;
@@ -30,7 +35,7 @@ header {
 }
 
 .logo:hover{
-    color: #000;
+    color: rgb(39, 39, 39);
     transform: scale(1.05);
     text-shadow: 0 5px 25px rgba(3, 69, 252, 0.836);
 }
@@ -65,7 +70,7 @@ section{
 
 .main h2{
     color: white;
-    font-size: 1.4em;
+    font-size: 1.9em;
     font-weight: 500;
 }
 
@@ -73,7 +78,7 @@ section{
     color: #4e9eff;
     font-size: 3em;
     font-weight: 600;
-    line-height: 65px;
+    line-height: 70px;
 }
 
 .main h3{
@@ -87,8 +92,8 @@ section{
 }
 
 .main-btn{
-    color: #fff;
-    background-color: #3a6cf4;
+    color: rgb(22, 22, 22);
+    background-color: #d3d3d3;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -97,18 +102,24 @@ section{
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 40px;
-    transition: 0.7s ease;
+    transition: 0.5s ease;
 }
 
 .main-btn:hover{
-    background-color: #0a49f6;
+    background-color: #c4c4c4;
     transform: scale(1.05);
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.685);
 }
 
 .socail-icons a{
     color: rgb(255, 255, 255);
     font-size: 1.7em;
     padding-right: 30px;
+}
+
+.socail-icons a:hover{
+    color: #d6d6d6;
+    text-shadow: 0 5px 25px rgba(255, 255, 255, 0.685);
 }
 
 .title{
@@ -143,7 +154,7 @@ section{
 }
 
 .icon{
-    color: #3a6cf4;
+    color: #222222;
     font-size: 8em;
     text-align: center;
 }
@@ -219,7 +230,7 @@ section{
 }
 
 .card-contact .info h3{
-    color: #000;
+    color: rgb(22, 22, 22);
 }
 
 .card-contact .content .info p{
