@@ -14,6 +14,10 @@ background-color: rgb(22, 22, 22);
 color: white;
 }
 
+.previewimage{
+visibility: hidden;
+}
+
 header {
     margin-top: 10px;
     margin-left: 3em;
