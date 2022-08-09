@@ -16,6 +16,7 @@ color: white;
 
 .previewimage{
 visibility: hidden;
+display: none;
 }
 
 header {
